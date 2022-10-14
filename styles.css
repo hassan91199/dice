@@ -1,41 +1,139 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
-}
-
 body {
   background-color: #393E46;
+  color: #4ECCA3;
 }
 
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
+.main-div {
+  height: 100vh;
+}
+
+.heading-div {
+  height: 20vh;
+}
+
+.dice-div {
+  height: 70vh;
+}
+
+.footer-div {
+  height: 10vh;
+}
+
+.name-div {
+  height: 20%;
+  /* width is 100% because of col-12 */
+}
+
+.image-div {
+  height: 80%;
+  /* width is 100% because of col-12 */
+}
+
+
+.heading-text {
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
 }
 
-p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+.paragraph-text, .footer-text {
+  font-family: "Indie Flower", cursive;
 }
 
-img {
-  width: 80%;
+/* Extra Small Screens xs */
+/* Small Screens sm */
+@media screen and (min-width: 200px) {
+  .dice-row {
+    height: 68vh;
+    width: 34vh;
+  }
+
+  .dice-col {
+    height: 50%;
+    /* width is 100% because of col-12 */
+  }
+
+  .dice-img {
+    height: 85%;
+    width: 80%;
+  }
+  
+
+  .heading-text {
+    font-size: 3rem;
+  }
+
+  .paragraph-text, .footer-text {
+    font-size: 1.8rem;
+  }
+
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+/* Medium Screens md */
+@media screen and (min-width: 768px) {
+  .dice-row {
+    height: 50vh;
+    width: 50vh;
+  }
 
+  .dice-col {
+    height: 100%;
+    /* width is 50% because of col-md-6 */
+  }
+
+  .dice-img {
+    height: 55%;
+    width: 100%;
+  }
+  
+
+  .heading-text {
+    font-size: 5rem;
+  }
+
+  .paragraph-text, .footer-text {
+    font-size: 3rem;
+  }
+ 
+}
+
+/* Large Screens lg */
+@media screen and (min-width: 992px) {
+  .dice-row {
+    height: 70vh;
+    width: 70vh;
+  }
+  
+.heading-text {
+    font-size: 4rem;
+  }
+
+  .paragraph-text, .footer-text {
+    font-size: 2.4rem;
+  }
+ 
+}
+
+/* Extra Large Screens xl */
+@media screen and (min-width: 1200px) {
+  
+.heading-text {
+    font-size: 4.5rem;
+  }
+
+  .paragraph-text, .footer-text {
+    font-size: 2.7rem;
+  }
+  
+}
+
+/* Extra Extra Large Screens xxl */
+@media screen and (min-width: 1400px) {
+  .heading-text {
+    font-size: 6rem;
+  }
+
+  .paragraph-text, .footer-text {
+    font-size: 3.6rem;
+  }
+  
 }

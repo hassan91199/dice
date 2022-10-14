@@ -1,0 +1,24 @@
+.dice-row {
+  height: 50vh;
+  width: 50vh;
+}
+
+.dice-col {
+  height: 50vh;
+}
+
+.dice-img {
+  height: 50vh;
+}
+
+.paragraph-text {
+  font-size: 2rem;
+}
+
+.heading-text {
+  font-size: 2rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+}
